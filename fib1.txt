@@ -1,0 +1,14 @@
+#Write your function here
+def append_sum(lst):
+  last_chara = lst[int(len(lst)-1)]
+  second_last = lst[int(len(lst)-2)]
+  lst.append(lst[int(len(lst)-1)] + lst[int(len(lst)-2)])
+  lst.append(lst[int(len(lst)-1)] + lst[int(len(lst)-2)])
+  lst.append(lst[int(len(lst)-1)] + lst[int(len(lst)-2)])
+  
+  return lst
+
+#Uncomment the line below when your function is done
+print(append_sum([1, 1, 2]))
+
+# 
